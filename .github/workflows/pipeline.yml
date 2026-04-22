@@ -55,7 +55,7 @@ jobs:
 
       # Step 3: Test that the Docker container runs successfully
       - name: Test Docker Container
-        run: docker run iris-ml-model
+        run: docker run --rm iris-ml-model
 
     #   # Step 4: (Optional) Deploy — echo simulates deployment here
     #   - name: Deploy to Testing Environment
